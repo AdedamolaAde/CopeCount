@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Exact, unscaled "CC" Logo centered in the viewport -->
+    <group
+        android:translateX="18"
+        android:translateY="18">
+
+        <!-- Large Purple 'C' -->
+        <path
+            android:fillColor="#7C3AED"
+            android:pathData="M38,15a25,25 0 0 0 -25,25a25,25 0 0 0 25,25a25,25 0 0 0 16,-6l3,4a31,31 0 1 1 0,-46l-3,4a25,25 0 0 0 -16,-6z" />
+
+        <!-- Large Gold 'C' -->
+        <path
+            android:fillColor="#FFD700"
+            android:pathData="M52,28a25,25 0 0 0 -25,25a25,25 0 0 0 25,25a25,25 0 0 0 16,-6l3,4a31,31 0 1 1 0,-46l-3,4a25,25 0 0 0 -16,-6z" />
+
+        <!-- Clock Symbol -->
+        <group
+            android:translateX="52"
+            android:translateY="53">
+            <path
+                android:fillColor="#7C3AED"
+                android:pathData="M0,-8a8,8 0 1 0 0,16a8,8 0 0 0 0,-16z M0,-6.5a6.5,6.5 0 1 1 0,13a6.5,6.5 0 0 1 0,-13z" />
+            <path
+                android:fillColor="#7C3AED"
+                android:pathData="M-0.5,-6h1v1h-1z M-0.5,5h1v1h-1z M-6,-0.5h1v1h-1z M5,-0.5h1v1h-1z" />
+            <path
+                android:fillColor="#7C3AED"
+                android:pathData="M-0.5,-4h1v4.5l3,2l-0.5,1l-3.5,-2.5z" />
+        </group>
+
+    </group>
+
+</vector>
